@@ -1,0 +1,86 @@
+[debug] [2024-03-10T20:37:27.033Z] ----------------------------------------------------------------------
+[debug] [2024-03-10T20:37:27.035Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-03-10T20:37:27.036Z] CLI Version:   13.0.2
+[debug] [2024-03-10T20:37:27.036Z] Platform:      win32
+[debug] [2024-03-10T20:37:27.036Z] Node Version:  v18.15.0
+[debug] [2024-03-10T20:37:27.037Z] Time:          Sun Mar 10 2024 23:37:27 GMT+0300 (East Africa Time)
+[debug] [2024-03-10T20:37:27.037Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-10T20:37:27.044Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-10T20:37:27.045Z] > authorizing via signed-in user (israelnoah18@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\LENOVO\Documents\Desktop\Projects\clientele\israel_noah
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-03-10T20:38:09.756Z] > refreshing access token with scopes: []
+[debug] [2024-03-10T20:38:09.760Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-03-10T20:38:09.760Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-10T20:38:10.390Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-03-10T20:38:10.390Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-10T20:38:10.412Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-03-10T20:38:10.412Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"israel","name":"israel"}
+[debug] [2024-03-10T20:38:12.429Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2024-03-10T20:38:12.430Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-03-10T20:38:12.881Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID israel. Please try again with a unique project ID.
+[debug] [2024-03-10T20:42:10.932Z] ----------------------------------------------------------------------
+[debug] [2024-03-10T20:42:10.934Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-03-10T20:42:10.934Z] CLI Version:   13.0.2
+[debug] [2024-03-10T20:42:10.934Z] Platform:      win32
+[debug] [2024-03-10T20:42:10.934Z] Node Version:  v18.15.0
+[debug] [2024-03-10T20:42:10.935Z] Time:          Sun Mar 10 2024 23:42:10 GMT+0300 (East Africa Time)
+[debug] [2024-03-10T20:42:10.935Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-10T20:42:10.942Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-10T20:42:10.942Z] > authorizing via signed-in user (israelnoah18@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\LENOVO\Documents\Desktop\Projects\clientele\israel_noah
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-03-10T20:42:29.633Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-03-10T20:42:30.677Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-03-10T20:42:30.677Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project israel-f4b64 (israel) 
+[info] 
+=== Hosting Setup
+[debug] [2024-03-10T20:42:35.739Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/israel-f4b64 [none]
+[debug] [2024-03-10T20:42:36.404Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/israel-f4b64 200
+[debug] [2024-03-10T20:42:36.405Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/israel-f4b64 {"projectId":"israel-f4b64","projectNumber":"3554213584","displayName":"israel","name":"projects/israel-f4b64","resources":{"hostingSite":"israel-f4b64"},"state":"ACTIVE","etag":"1_0fbd1b20-b137-42d9-95eb-1a2419587106"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 

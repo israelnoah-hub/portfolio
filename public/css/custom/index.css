@@ -1,0 +1,16 @@
+*{
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.form-box {
+    margin: auto;
+    background: transparent;
+  }
+  
+  input, textarea {
+    width: 100%;
+  }
+
+  .about-info__pic {
+  height:1000px;
+}
