@@ -4040,6 +4040,9 @@ img.u-pull-left {
 .contact-top {
     padding-top : var(--vspace-5);
     border-top  : 1px solid var(--color-border);
+    background-color: rgba(255, 255, 255,.2);
+    color:black !important;
+    border:1px solid white;
 }
 
 .contact-top .h1 {
